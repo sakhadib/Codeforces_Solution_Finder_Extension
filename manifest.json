@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name" : "CF Solver Extension",
+    "version": "1.0",
+
+    "permissions":[
+        "tabs",
+        "activeTab"
+    ],
+    "background":{
+        "service_worker": "background.js"
+    },
+    "action":{
+        "default_title" : "Redirect"
+    }
+}
